@@ -1,20 +1,23 @@
 table{
     border-collapse: collapse;
-    line-height:30px;
-    width:270px;
+    line-height: 30px;
+    width: 270px;
 }
 tr:nth-child(even){
     background-color: lightgray;
 }
 th{
-    background-color:#427fef;
-    color:white;
-    text-align:left;
+    background-color: #427fef;
+    color: white;
+    text-align: left;
 }
 /*Took about 30-35 mins including wifi problems*/
 
 .container{
-    height:300px;
-    width:300px;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
     background-color: lightgreen;
+    box-shadow: 15px 15px lightgray;
+    border-radius: 10px;
 }
